@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joel S. Tinitana C. | Portafolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #e0e0f5;
+      background: url('Fondo(3).jpeg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #14141c;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      z-index: 1000;
+    }
+    nav h1 {
+      color: #a78bfa;
+      font-size: 1.2rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+    }
+    nav ul li a {
+      color: #dcd6ff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    nav ul li a:hover {
+      color: #a78bfa;
+    }
+    header {
+      background: url('Fondo(2).jpg') no-repeat center center/cover;
+      text-align: center;
+      padding: 6rem 2rem 4rem;
+      margin-top: 4rem;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #a78bfa;
+      object-fit: cover;
+    }
+    header h2 {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      color: #dcd6ff;
+    }
+    header p {
+      max-width: 700px;
+      margin: 1rem auto;
+      color: #bfbfd6;
+      font-size: 1rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid #a78bfa;
+      display: inline-block;
+      color: #dcd6ff;
+    }
+    .proyecto {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+      gap: 1.5rem;
+    }
+    .proyecto img {
+      width: 180px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    #certificados a {
+  color: #ffffff; /* Blanco brillante para buena visibilidad */
+  font-weight: bold;
+}
+
+#certificados a:hover {
+  color: #9f7aea; /* Un morado más claro al pasar el mouse */
+  text-decoration: underline;
+}
+
+    .contact-icons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .contact-icons img {
+      width: 80px;
+      height: auto;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Joel S. Tinitana C.</h1>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#intereses">Intereses</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#certificados">Certificados</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio">
+    <img src="Foto.jpg" alt="Joel S. Tinitana C.">
+    <h2>Joel S. Tinitana C.</h2>
+    <p>En la actualidad, soy estudiante de la Escuela Politécnica Nacional del Ecuador. Me trasladé a esta universidad por su prestigio y por el compromiso que tiene con la formación de ingenieros. Decidí estudiar esta carrera porque quiero aprender y dedicarme al área tecnológica, un campo que avanza a pasos agigantados. Aspiro a comprender su evolución y contribuir con nuevas soluciones a los problemas de mi entorno.</p>
+  </header>
+
+  <section id="intereses">
+    <h2>Intereses</h2>
+    <ul>
+      <li>Bases de datos</li>
+      <li>Redes informáticas</li>
+      <li>Ciberseguridad</li>
+      <li>Inteligencia artificial</li>
+      <li>Videojuegos</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <img src="inclusiondigital.jpg" alt="Inclusión Digital">
+      <div>
+        <strong>Proyecto de Inclusión Digital</strong>
+        <p>Participación activa en un programa de inclusión tecnológica para comunidades con acceso limitado a recursos digitales.</p>
+      </div>
+    </div>
+    <div class="proyecto">
+      <img src="Buscamina.jpg" alt="Buscaminas">
+      <div>
+        <strong>Juego de Buscaminas en C++</strong>
+        <p>Coautor del desarrollo de una versión funcional del clásico juego Buscaminas utilizando programación orientada a objetos.</p>
+      </div>
+    </div>
+    <div class="proyecto">
+      <img src="Libro.jpg" alt="Biblioteca">
+      <div>
+        <strong>Sistema de Biblioteca en Java</strong>
+        <p>Coautor del desarrollo de un sistema de compra y venta de libros para una biblioteca, con interfaz y manejo de inventario.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Trabajo en equipo</li>
+      <li>Comunicación efectiva</li>
+      <li>Resolución de problemas</li>
+      <li>Pensamiento lógico</li>
+      <li>Adaptabilidad</li>
+    </ul>
+  </section>
+
+  <section id="certificados">
+    <h2>Certificados</h2>
+    <ul>
+      <li><a href="Tinitana.Certificado.pdf" target="_blank">MATLAB Onramp – MathWorks (2024)</a></li>
+      <li><a href="Machine Learning Onramp Certificado.pdf" target="_blank">Machine Learning Onramp – MathWorks (2024)</a></li>
+      <li><a href="Tinitana.Certificado.ML.pdf" target="_blank">Machine Learning Onramp (versión 2) – MathWorks (2024)</a></li>
+      <li><a href="Certificado de Deep Learning Onramp.pdf" target="_blank">Deep Learning Onramp – MathWorks (2024)</a></li>
+      <li><a href="Tinitana.Certificado.DL.pdf" target="_blank">Deep Learning Onramp (versión 2) – MathWorks (2024)</a></li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <div class="contact-icons">
+      <a href="mailto:joel.tinitana@epn.edu.ec"><img src="outlook.jpeg" alt="Outlook"></a>
+      <a href="https://github.com/Kenichi-50"><img src="Github.jpeg" alt="GitHub"></a>
+      <a href="https://www.linkedin.com/in/joel-stalin-tinitana-carri%C3%B3n-57108a196/"><img src="Linkedin.jpeg" alt="LinkedIn"></a>
+    </div>
+  </section>
+</body>
+</html>
+
